@@ -8,3 +8,5 @@ add_subdirectory(lib/glew EXCLUDE_FROM_ALL)
 
 add_subdirectory(task01-window)
 add_subdirectory(task02-clear_color)
+add_subdirectory(task03-triangles)
+add_subdirectory(task04-two_shaders)
