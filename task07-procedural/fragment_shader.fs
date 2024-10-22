@@ -20,7 +20,7 @@ void renderDiamond() {
 }
 
 // ---
-void renderChessboard() {
+void renderCheckerboard() {
   frag_color = clr3;
 }
 
@@ -42,7 +42,7 @@ main() {
   if (render_mode % mode_count == 1)
     renderDiamond();
   if (render_mode % mode_count == 2)
-    renderChessboard();
+    renderCheckerboard();
   if (render_mode % mode_count == 3)
     renderPattern1();
   if (render_mode % mode_count == 4)
