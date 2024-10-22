@@ -25,13 +25,18 @@ void renderChessboard() {
 }
 
 // ---
-void renderPattern() {
+void renderPattern1() {
   frag_color = clr4;
+}
+
+// ---
+void renderPattern2() {
+  frag_color = clr0;
 }
 
 void
 main() {
-  int mode_count = 4;
+  int mode_count = 5;
   if (render_mode % mode_count == 0)
     renderCircle();
   if (render_mode % mode_count == 1)
@@ -39,5 +44,7 @@ main() {
   if (render_mode % mode_count == 2)
     renderChessboard();
   if (render_mode % mode_count == 3)
-    renderPattern();
+    renderPattern1();
+  if (render_mode % mode_count == 4)
+    renderPattern2();
 }
