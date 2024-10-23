@@ -244,7 +244,7 @@ int
 main(void) {
   std::cout << "Computer Graphics Tutorial" << std::endl;
   std::cout << "==========================" << std::endl;
-  std::cout << "Press M   to swtich render mode." << std::endl;
+  std::cout << "Press M   to switch render mode." << std::endl;
   std::cout << "Press R   to reload the shader." << std::endl;
   std::cout << "Press S   to take a screenshot." << std::endl;
   std::cout << "Press ESC to exit the program." << std::endl;
