@@ -287,8 +287,6 @@ renderLoop(Settings& setup) {
     // --- poll for and process events like mouse input --- //
     glfwPollEvents();
     handleKeyboardEvents(setup, shader);
-    double time = glfwGetTime();
-    shader.setFloat("time", time);
 
     // --- clear the window --- //
     shader.use();
